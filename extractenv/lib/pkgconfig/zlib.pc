@@ -1,0 +1,13 @@
+prefix=/Users/int1548/Desktop/Multilanguage invoice extracter/extractenv
+exec_prefix=/Users/int1548/Desktop/Multilanguage invoice extracter/extractenv
+libdir=/Users/int1548/Desktop/Multilanguage invoice extracter/extractenv/lib
+sharedlibdir=/Users/int1548/Desktop/Multilanguage invoice extracter/extractenv/lib
+includedir=/Users/int1548/Desktop/Multilanguage invoice extracter/extractenv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
